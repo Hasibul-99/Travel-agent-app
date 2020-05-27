@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import YatraWhite from '../../assets/images/Yatra-white.png';
 import comment from '../../assets/images/comment.jpg';
@@ -44,7 +44,7 @@ class AdminNavbar extends Component {
                         </form>
                     </div> */}
                     <div className="dropdown">
-                        <Link className="dropdown-toggle" data-toggle="dropdown">
+                        <div className="dropdown-toggle" data-toggle="dropdown">
                             <div className="profile-sec" onClick={this.toggleOpenSetting}>
                                 <div className="dash-image">
                                     <img src={comment} alt="" />
@@ -54,7 +54,7 @@ class AdminNavbar extends Component {
                                     <span>Post Manager</span>
                                 </div>
                             </div>
-                        </Link>
+                        </div>
                         <ul className={menuClass}>
                             <li><NavLink to=""><AiOutlineSetting/> Settings</NavLink></li>
                             <li><NavLink to=""><AiOutlineSetting/> Profile</NavLink></li>
@@ -64,12 +64,12 @@ class AdminNavbar extends Component {
                     </div>
                     
                     <div className="dropdown">
-                        <Link className="dropdown-toggle" data-toggle="dropdown">
+                        <div className="dropdown-toggle" data-toggle="dropdown">
                             <div className="dropdown-item" onClick={this.toggleOpenMail}>
                                 <FiMail/>
                                 <span className="notify">3</span>
                             </div>
-                        </Link>
+                        </div>
                         <div className={menuMailClass}>
                         <h4> 23 Messages</h4>
                         <ul>
@@ -115,12 +115,12 @@ class AdminNavbar extends Component {
                     </div>
                     
                     <div className="dropdown"> 
-                        <Link className="dropdown-toggle" data-toggle="dropdown">
+                        <div className="dropdown-toggle" data-toggle="dropdown">
                             <div className="dropdown-item" onClick={this.toggleOpenNotification}>
                                 <BsBell value={{ style: { height: '25px', width: '25px'} }}/>
                                 <span className="notify">3</span>
                             </div>
-                        </Link>
+                        </div>
                         <div className={menuNotificationClass}>
                             <h4> 599 Notifications</h4>
                             <ul>

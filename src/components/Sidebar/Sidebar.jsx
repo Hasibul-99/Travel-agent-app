@@ -16,13 +16,13 @@ class Sidebar extends Component {
                 <div className="dashboard-nav-inner">
                     <ul>
                         <li className="active">
-                            <NavLink to="">
+                            <NavLink to="/admin/dashboard">
                                 <span className="mr-2"><AiOutlineSetting/></span>
                                 Dashboard
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to="">
+                            <NavLink to="/admin/profile">
                                 <span className="mr-2"><AiOutlineUser/></span>
                                 Edit Profile
                             </NavLink>
