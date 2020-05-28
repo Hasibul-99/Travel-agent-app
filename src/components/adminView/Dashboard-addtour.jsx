@@ -1,6 +1,13 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
+import { FcDocument } from 'react-icons/fc';
+import { BsMap } from 'react-icons/bs';
+import { AiOutlinePicture, AiFillFacebook, AiFillTwitterSquare, AiOutlineGooglePlus } from 'react-icons/ai';
+import { GrDocumentText, GrAdd, GrFormClose } from 'react-icons/gr';
+import { BsBook } from 'react-icons/bs';
+import { FaArrowAltCircleRight } from 'react-icons/fa';
+
 class DashboardAddTour extends Component {
     constructor(props) {
         super(props);
@@ -20,7 +27,7 @@ class DashboardAddTour extends Component {
 
                                 {/* <!-- Headline --> */}
                                 <div className="add-listing-headline">
-                                    <h3><i className="sl sl-icon-doc"></i> Basic Informations</h3>
+                                    <h3><FcDocument/> Basic Informations</h3>
                                 </div>
 
                                 {/* <!-- Title --> */}
@@ -64,7 +71,7 @@ class DashboardAddTour extends Component {
 
                                 {/* <!-- Headline --> */}
                                 <div className="add-listing-headline">
-                                    <h3><i className="sl sl-icon-map"></i> Location</h3>
+                                    <h3><BsMap/> Location</h3>
                                 </div>
 
                                 <div className="submit-section">
@@ -117,7 +124,7 @@ class DashboardAddTour extends Component {
 
                                 {/* <!-- Headline --> */}
                                 <div className="add-listing-headline">
-                                    <h3><i className="sl sl-icon-picture"></i> Gallery</h3>
+                                    <h3><AiOutlinePicture/> Gallery</h3>
                                 </div>
 
                                 {/* <!-- Dropzone --> */}
@@ -132,7 +139,7 @@ class DashboardAddTour extends Component {
 
                                 {/* <!-- Headline --> */}
                                 <div className="add-listing-headline">
-                                    <h3><i className="sl sl-icon-docs"></i> Details</h3>
+                                    <h3><GrDocumentText/> Details</h3>
                                 </div>
 
                                 {/* <!-- Description --> */}
@@ -171,19 +178,19 @@ class DashboardAddTour extends Component {
 
                                     {/* <!-- Phone --> */}
                                     <div className="col-md-4">
-                                        <label className="fb-input"><i className="fa fa-facebook-square"></i> Facebook <span>(optional)</span></label>
+                                        <label className="fb-input"><AiFillFacebook/> Facebook <span>(optional)</span></label>
                                         <input type="text" placeholder="https://www.facebook.com/"/>
                                     </div>
 
                                     {/* <!-- Website --> */}
                                     <div className="col-md-4">
-                                        <label className="twitter-input"><i className="fa fa-twitter"></i> Twitter <span>(optional)</span></label>
+                                        <label className="twitter-input"><AiFillTwitterSquare/> Twitter <span>(optional)</span></label>
                                         <input type="text" placeholder="https://www.twitter.com/"/>
                                     </div>
 
                                     {/* <!-- Email Address --> */}
                                     <div className="col-md-4">
-                                        <label className="gplus-input"><i className="fa fa-google-plus"></i> Google Plus <span>(optional)</span></label>
+                                        <label className="gplus-input"><AiOutlineGooglePlus/> Google Plus <span>(optional)</span></label>
                                         <input type="text" placeholder="https://plus.google.com/"/>
                                     </div>
 
@@ -229,7 +236,7 @@ class DashboardAddTour extends Component {
 
                                 {/* <!-- Headline --> */}
                                 <div className="add-listing-headline">
-                                    <h3><i className="sl sl-icon-book-open"></i> Pricing</h3>
+                                    <h3><BsBook/> Pricing</h3>
                                     {/* <!-- Switcher --> */}
                                     <label className="switch">
                                         <input type="checkbox" defaultChecked/>
@@ -246,11 +253,11 @@ class DashboardAddTour extends Component {
                                                 <tbody>
                                                     <tr className="pricing-list-item pattern">
                                                         <td>
-                                                            <div className="fm-move"><i className="sl sl-icon-cursor-move"></i></div>
+                                                            <div className="fm-move"><GrAdd/></div>
                                                             <div className="fm-input pricing-name"><input type="text" placeholder="Title" /></div>
                                                             <div className="fm-input pricing-ingredients"><input type="text" placeholder="Description" /></div>
                                                             <div className="fm-input pricing-price"><input type="text" placeholder="Price" data-unit="USD" /></div>
-                                                            <div className="fm-close"><Link className="delete" to="#"><i className="fa fa-remove"></i></Link></div>
+                                                            <div className="fm-close"><Link className="delete" to="#"><GrFormClose/></Link></div>
                                                         </td>
                                                     </tr>
                                                 </tbody>
@@ -266,7 +273,7 @@ class DashboardAddTour extends Component {
                             {/* <!-- Section / End --> */}
 
 
-                            <Link to="#" className="button preview">Preview <i className="fa fa-arrow-circle-right"></i></Link>
+                            <Link to="#" className="button preview">Preview <FaArrowAltCircleRight/></Link>
                         </div>
                     </div>
                 </div>      
