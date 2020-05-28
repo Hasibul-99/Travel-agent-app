@@ -70,3 +70,13 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 ## React icons
 https://react-icons.github.io/react-icons/
+
+## Error on `System limit for number of file watchers reached`
+
+I have had this error too. Try
+
+```$ echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf``
+and
+```$ sudo sysctl -p```
+
+This document helped me

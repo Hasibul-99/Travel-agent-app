@@ -28,7 +28,7 @@ class Sidebar extends Component {
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to="">
+                            <NavLink to="/admin/addTour">
                                 <span className="mr-2"><AiOutlinePlusCircle/></span>
                                 Add Tour
                             </NavLink>
