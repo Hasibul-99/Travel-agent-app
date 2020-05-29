@@ -4,7 +4,7 @@ import TourListing from "./TourListing";
 class ExpiredTourListing extends Component {
     render() {
         return (
-            <div class="dashboard-content">
+            <div className="dashboard-content">
                 <TourListing context="expired"/>
             </div>
         )

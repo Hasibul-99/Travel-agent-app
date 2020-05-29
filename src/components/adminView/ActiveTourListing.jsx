@@ -4,7 +4,7 @@ import TourListing from "./TourListing";
 class ActiveTourListing extends Component {
     render() {
         return (
-        <div class="dashboard-content">
+        <div className="dashboard-content">
             <TourListing context="active"/>
         </div>)
     }

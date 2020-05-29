@@ -5,7 +5,7 @@ import TourListing from "./TourListing";
 class PendingTourListing extends Component {
     render() {
         return (
-            <div class="dashboard-content">
+            <div className="dashboard-content">
                 <TourListing context="pending"/>
             </div>
         )

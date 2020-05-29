@@ -133,7 +133,7 @@ class TourListing extends Component {
                                     </div>
                                     <div className="list-box-listing-content">
                                         <div className="inner">
-                                            <Link href="dashboard-listdetail.html"><h3>Sticky Band</h3></Link>
+                                            <Link to=""><h3>Sticky Band</h3></Link>
                                             <span>Bishop Avenue, New York</span>
                                             <div className="star-rating" data-rating="5.0">
                                                 <div className="rating-counter">(23 reviews)</div>

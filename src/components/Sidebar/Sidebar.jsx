@@ -35,23 +35,23 @@ class Sidebar extends Component {
                         </li>
                         {/* className="active" */}
                         <li> 
-                            <NavLink to="">
+                            <NavLink to="/admin/tourListing/active">
                                 <span className="mr-2"><FiLayers/></span>
                                 Tour Listing
                             </NavLink>
                             <ul>
                                 <li>
-                                    <NavLink to="">
+                                    <NavLink to="/admin/tourListing/active">
                                         Active <span className="nav-tag green">6</span>
                                     </NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to="">
+                                    <NavLink to="/admin/tourListing/pending">
                                         Pending <span className="nav-tag yellow">1</span>
                                     </NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to="">
+                                    <NavLink to="/admin/tourListing/expired">
                                         Expired <span className="nav-tag red">2</span>
                                     </NavLink>
                                 </li>
