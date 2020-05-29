@@ -4,6 +4,8 @@ import DashboardAddTour from "./components/adminView/Dashboard-addtour";
 import ActiveTourListing from "./components/adminView/ActiveTourListing";
 import PendingTourListing from "./components/adminView/PendingTourListing";
 import ExpiredTourListing from "./components/adminView/ExpiredTourListing";
+import DashboardBookingList from "./components/adminView/Dashboard-Booking-list";
+import DashboardHistory from "./components/adminView/Dashboard-history";
 
 const dashboardRoutes = [
     {
@@ -46,6 +48,20 @@ const dashboardRoutes = [
         name: "tour-listing-expired",
         icon: "pe-7s-graph",
         component: ExpiredTourListing,
+        layout: "/admin"
+    },
+    {
+        path: "/bookingListing",
+        name: "booking-listing",
+        icon: "pe-7s-graph",
+        component: DashboardBookingList,
+        layout: "/admin"
+    },
+    {
+        path: "/bookingHistory",
+        name: "booking-history",
+        icon: "pe-7s-graph",
+        component: DashboardHistory,
         layout: "/admin"
     },
 ]

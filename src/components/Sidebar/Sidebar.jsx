@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 
-import {AiOutlineSetting, AiOutlineUser, AiOutlinePlusCircle, AiOutlineUnorderedList, AiOutlineFolder, AiOutlineStar, AiOutlineLogout} from "react-icons/ai";
+import {AiOutlineSetting, AiOutlineUser, AiOutlinePlusCircle, AiOutlineUnorderedList, AiOutlineFolder, AiOutlineLogout} from "react-icons/ai";
 import {FiLayers} from "react-icons/fi";
 
 class Sidebar extends Component {
@@ -58,21 +58,15 @@ class Sidebar extends Component {
                             </ul>   
                         </li>
                         <li>
-                            <NavLink to="">
+                            <NavLink to="/admin/bookingListing">
                                 <span className="mr-2"><AiOutlineUnorderedList/></span>
                                 Booking List
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to="">
+                            <NavLink to="/admin/bookingHistory">
                                 <span className="mr-2"><AiOutlineFolder/></span>
                                 History
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink to="">
-                                <span className="mr-2"><AiOutlineStar/></span>
-                                Reviews
                             </NavLink>
                         </li>
                         <li>
