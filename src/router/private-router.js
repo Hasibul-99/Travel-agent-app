@@ -1,11 +1,11 @@
-import Dashboard from "./components/adminView/Dashboard";
-import DashboardMyProfile from "./components/adminView/Dashboard-my-profile";
-import DashboardAddTour from "./components/adminView/Dashboard-addtour";
-import ActiveTourListing from "./components/adminView/ActiveTourListing";
-import PendingTourListing from "./components/adminView/PendingTourListing";
-import ExpiredTourListing from "./components/adminView/ExpiredTourListing";
-import DashboardBookingList from "./components/adminView/Dashboard-Booking-list";
-import DashboardHistory from "./components/adminView/Dashboard-history";
+import Dashboard from "../components/adminView/Dashboard";
+import DashboardMyProfile from "../components/adminView/Dashboard-my-profile";
+import DashboardAddTour from "../components/adminView/Dashboard-addtour";
+import ActiveTourListing from "../components/adminView/ActiveTourListing";
+import PendingTourListing from "../components/adminView/PendingTourListing";
+import ExpiredTourListing from "../components/adminView/ExpiredTourListing";
+import DashboardBookingList from "../components/adminView/Dashboard-Booking-list";
+import DashboardHistory from "../components/adminView/Dashboard-history";
 
 const dashboardRoutes = [
     {

@@ -1,12 +1,8 @@
 import React, { Component } from "react";
 import { Route, Switch } from "react-router-dom";
-import routes from "../router/private-router";
 
-import "../assets/css/style.css";
-import "../assets/css/dashboard.css";
+import routes from "../router/public-router";
 
-import Siddebar from "../components/Sidebar/Sidebar";
-import AdminNavbar from "../components/Navbars/AdminNavbar";
 
 class Admin extends Component {
     constructor(props) {
@@ -16,7 +12,9 @@ class Admin extends Component {
 
     getRoutes = routes => {
         return routes.map((prop, key) => {
-          if (prop.layout === "/admin") {
+            console.log("props", prop);
+            
+          if (prop.layout === "/auth") {
             return (
               <Route
                 path={prop.layout + prop.path}
@@ -30,6 +28,9 @@ class Admin extends Component {
               />
             );
           } else {
+
+            console.log("hello");
+            
             return null;
           }
         });
@@ -37,9 +38,7 @@ class Admin extends Component {
 
     render() {
         return (
-            <div id="dashboard">
-                <AdminNavbar></AdminNavbar>
-                <Siddebar></Siddebar>
+            <div>
                 <Switch>{this.getRoutes(routes)}</Switch>
             </div>
         )
