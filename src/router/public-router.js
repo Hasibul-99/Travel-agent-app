@@ -1,4 +1,4 @@
-import Registration from '../components/user/Registration';
+import Registration from '../components/auth/Registration';
 
 const PublicRoutes = [
     {
