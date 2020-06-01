@@ -1,18 +1,18 @@
 import React, { Component } from "react";
 import { Route, Switch } from "react-router-dom";
 
-import routes from "../router/public-router";
+import routes from "../router/common-rourer";
 
 
-class Admin extends Component {
+class Common extends Component {
     constructor(props) {
         super(props);
         this.state = {}
     }
 
     getRoutes = routes => {
-        return routes.map((prop, key) => {
-          if (prop.layout === "/auth") {
+        return routes.map((prop, key) => {  
+          if (prop.layout === "/") {
             return (
               <Route
                 path={prop.layout + prop.path}
@@ -40,4 +40,4 @@ class Admin extends Component {
     }
 }
 
-export default Admin;
+export default Common;

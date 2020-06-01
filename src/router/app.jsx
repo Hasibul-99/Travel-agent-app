@@ -8,6 +8,7 @@ import {
 
 import AdminLayout from "../layouts/Admin";
 import AuthLayout from "../layouts/Auth";
+import CommonRouter from "../layouts/Common";
 
 class App extends Component {
     constructor(props) {
@@ -21,9 +22,10 @@ class App extends Component {
     render() {
         return (
             <Switch>
+                <Route exact path="/" render={props => <CommonRouter {...props} />}></Route>
                 <Route path="/admin" render={props => <AdminLayout {...props} />} ></Route>
                 <Route path="/auth" render={props => <AuthLayout {...props} />}></Route>
-                <Redirect from="/" to="/admin/dashboard" />
+                <Redirect from="/" to="/" /> 
             </Switch>
         )
     }
