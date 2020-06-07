@@ -4,6 +4,8 @@ import Destination from "./destination";
 import SearchOrdet from "./search-ordet";
 import Deals from "./deals";
 import TopDestinations from "./top-destinations";
+import DealsOnSale from './deals-on-sale';
+import Testemonial from './Testimonials';
  
 export default function Landing() {
     return (
@@ -13,6 +15,8 @@ export default function Landing() {
             <Destination/>
             <Deals/>
             <TopDestinations/>
+            <DealsOnSale/>
+            <Testemonial/>
         </div>
     )
 }
