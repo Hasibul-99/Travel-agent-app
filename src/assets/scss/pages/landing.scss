@@ -391,3 +391,24 @@
         }
     }
 }
+
+.slide {
+    &:before {
+        background: none !important;
+    }
+}
+.testimonials-slider {
+    .carousel-inner {
+        width: 80%;
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-top: 5%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    img {
+        width: 70%;
+        height: 100%;
+        border-radius: 50%;
+    }
+}

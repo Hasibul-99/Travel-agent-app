@@ -1,6 +1,13 @@
 import React, { Component } from 'react';
 import { GiCutDiamond } from "react-icons/gi";
 import {Link} from "react-router-dom";
+import Carousel from 'react-bootstrap/Carousel'
+
+import testemonial1 from "../../../assets/images/testemonial1.jpg"
+import testemonial2 from "../../../assets/images/testemonial2.jpg"
+import testemonial3 from "../../../assets/images/testemonial3.jpg"
+import testemonial4 from "../../../assets/images/testemonial4.jpg"
+import testemonial5 from "../../../assets/images/testemonial5.jpg"
 
 export default class Testemonial extends Component {
     render() {
@@ -9,102 +16,147 @@ export default class Testemonial extends Component {
                 <div class="section-title text-center">
                     <h2>Best Rated Travel Agency</h2>
                     <div class="section-icon section-icon-white">
-                        <i class="flaticon-diamond"></i>
+                        <GiCutDiamond/>
                     </div>       
                 </div>
-                {/* <!-- Paradise Slider --> */}
-                <div id="testimonial_094" class="carousel slide testimonial_094_indicators thumb_scroll_x swipe_x ps_easeOutSine" data-ride="carousel" data-pause="hover" data-interval="3000" data-duration="1000">
-
-                    <ol class="carousel-indicators">
-                        <li data-target="#testimonial_094" data-slide-to="0" class="active">
-                            <img src="images/testemonial1.jpg" alt="testimonial_094_01"/>
-                        </li>
-                        <li data-target="#testimonial_094" data-slide-to="1">
-                            <img src="images/testemonial2.jpg" alt="testimonial_094_02"/>
-                        </li>
-                        <li data-target="#testimonial_094" data-slide-to="2">
-                            <img src="images/testemonial3.jpg" alt="testimonial_094_03"/>
-                        </li>
-                        <li data-target="#testimonial_094" data-slide-to="3">
-                            <img src="images/testemonial4.jpg" alt="testimonial_094_04"/>
-                        </li>
-                        <li data-target="#testimonial_094" data-slide-to="4">
-                            <img src="images/testemonial5.jpg" alt="testimonial_094_05"/>
-                        </li>
-                    </ol>
-
-                    <div class="carousel-inner" role="listbox">
-                        <div class="item active">
-                            <div class="testimonial_094_slide">
+                
+                <Carousel className="testimonials-slider">
+                    <Carousel.Item>
+                        <div className="row">
+                            <div className="col-3 pt-5">
+                                <img className="d-block"
+                                    src={testemonial1}
+                                    alt="Third slide"
+                                />
+                            </div>
+                            <div className="col-9 pt-5">
                                 <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit am nibh unc varius facilisis eros ed erat in in velit quis arcu ornare laoreet urabitur adipiscing luctus massa nteger ut purus ac augue commodo commodo unc nec mi eu justo tempor consectetuer tiam.</p>
-                                <div class="deal-rating">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star-o"></span>
-                                    <span class="fa fa-star-o"></span>
-                                </div>
-                                <h5><a href="#">Susan Doe, Houston</a></h5>
-                            </div> 
-                        </div>
-
-                        <div class="item">
-                            <div class="testimonial_094_slide">
-                                <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit am nibh unc varius facilisis eros ed erat in in velit quis arcu ornare laoreet urabitur adipiscing luctus massa nteger ut purus ac augue commodo commodo unc nec mi eu justo tempor consectetuer tiam.</p>
-                                <div class="deal-rating">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star-o"></span>
-                                    <span class="fa fa-star-o"></span>
-                                </div>
-                                <h5><a href="#">Susan Doe, Houston</a></h5>
-                            </div> 
-                        </div>
-
-                        <div class="item">
-                            <div class="testimonial_094_slide">
-                                <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit am nibh unc varius facilisis eros ed erat in in velit quis arcu ornare laoreet urabitur adipiscing luctus massa nteger ut purus ac augue commodo commodo unc nec mi eu justo tempor consectetuer tiam.</p>
-                                <div class="deal-rating">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star-o"></span>
-                                    <span class="fa fa-star-o"></span>
-                                </div>
-                                <h5><a href="#">Susan Doe, Houston</a></h5>
+                                <h5>Susan Doe, Houston</h5>
                             </div>
                         </div>
+                    </Carousel.Item>
 
-                        <div class="item">
-                            <div class="testimonial_094_slide">
+                    <Carousel.Item>
+                        <div className="row">
+                            <div className="col-3 pt-5">
+                                <img className="d-block"
+                                    src={testemonial2}
+                                    alt="Third slide"
+                                />
+                            </div>
+                            <div className="col-9 pt-5">
                                 <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit am nibh unc varius facilisis eros ed erat in in velit quis arcu ornare laoreet urabitur adipiscing luctus massa nteger ut purus ac augue commodo commodo unc nec mi eu justo tempor consectetuer tiam.</p>
-                                <div class="deal-rating">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star-o"></span>
-                                    <span class="fa fa-star-o"></span>
-                                </div>
-                                <h5><a href="#">Susan Doe, Houston</a></h5>
+                                <h5>Susan Doe, Houston</h5>
                             </div>
                         </div>
-
-                        <div class="item">
-                            <div class="testimonial_094_slide">
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <div className="row">
+                            <div className="col-3 pt-5">
+                                <img className="d-block"
+                                    src={testemonial3}
+                                    alt="Third slide"
+                                />
+                            </div>
+                            <div className="col-9 pt-5">
                                 <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit am nibh unc varius facilisis eros ed erat in in velit quis arcu ornare laoreet urabitur adipiscing luctus massa nteger ut purus ac augue commodo commodo unc nec mi eu justo tempor consectetuer tiam.</p>
-                                <div class="deal-rating">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star-o"></span>
-                                    <span class="fa fa-star-o"></span>
-                                </div>
-                                <h5><a href="#">Susan Doe, Houston</a></h5>
-                            </div> 
+                                <h5>Susan Doe, Houston</h5>
+                            </div>
                         </div>
-                    </div> 
-                </div>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <div className="row">
+                            <div className="col-3 pt-5">
+                                <img className="d-block"
+                                    src={testemonial4}
+                                    alt="Third slide"
+                                />
+                            </div>
+                            <div className="col-9 pt-5">
+                                <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit am nibh unc varius facilisis eros ed erat in in velit quis arcu ornare laoreet urabitur adipiscing luctus massa nteger ut purus ac augue commodo commodo unc nec mi eu justo tempor consectetuer tiam.</p>
+                                <h5>Susan Doe, Houston</h5>
+                            </div>
+                        </div>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <div className="row">
+                            <div className="col-3 pt-5">
+                                <img className="d-block"
+                                    src={testemonial5}
+                                    alt="Third slide"
+                                />
+                            </div>
+                            <div className="col-9 pt-5">
+                                <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit am nibh unc varius facilisis eros ed erat in in velit quis arcu ornare laoreet urabitur adipiscing luctus massa nteger ut purus ac augue commodo commodo unc nec mi eu justo tempor consectetuer tiam.</p>
+                                <h5>Susan Doe, Houston</h5>
+                            </div>
+                        </div>
+                    </Carousel.Item>
+                    {/* <Carousel.Item>
+                        <div className="row">
+                            <div className="col-4">
+                            <img className="d-block w-100"
+                                src={testemonial2}
+                                alt="Third slide"
+                            />
+                            </div>
+                            <div className="col-8">
+                            <Carousel.Caption>
+                                <h3>Second slide label</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </Carousel.Caption>
+                            </div>
+                        </div>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <div className="row">
+                            <div className="col-4">
+                            <img className="d-block w-100"
+                                src={testemonial3}
+                                alt="Third slide"
+                            />
+                            </div>
+                            <div className="col-8">
+                            <Carousel.Caption>
+                                <h3>Second slide label</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </Carousel.Caption>
+                            </div>
+                        </div>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <div className="row">
+                            <div className="col-4">
+                            <img className="d-block w-100"
+                                src={testemonial4}
+                                alt="Third slide"
+                            />
+                            </div>
+                            <div className="col-8">
+                            <Carousel.Caption>
+                                <h3>Second slide label</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </Carousel.Caption>
+                            </div>
+                        </div>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <div className="row">
+                            <div className="col-4">
+                            <img className="d-block w-100"
+                                src={testemonial5}
+                                alt="Third slide"
+                            />
+                            </div>
+                            <div className="col-8">
+                            <Carousel.Caption>
+                                <h3>Second slide label</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </Carousel.Caption>
+                            </div>
+                        </div>
+                    </Carousel.Item> */}
+                </Carousel>
             </section>
         )
     }
