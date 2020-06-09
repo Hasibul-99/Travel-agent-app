@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { GiCutDiamond } from "react-icons/gi";
-import {Link} from "react-router-dom";
 import Carousel from 'react-bootstrap/Carousel'
 
 import testemonial1 from "../../../assets/images/testemonial1.jpg"

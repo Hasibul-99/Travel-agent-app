@@ -6,6 +6,7 @@ import Deals from "./deals";
 import TopDestinations from "./top-destinations";
 import DealsOnSale from './deals-on-sale';
 import Testemonial from './Testimonials';
+import TourCountdown from './countdown-section';
  
 export default function Landing() {
     return (
@@ -17,6 +18,7 @@ export default function Landing() {
             <TopDestinations/>
             <DealsOnSale/>
             <Testemonial/>
+            <TourCountdown/>
         </div>
     )
 }
