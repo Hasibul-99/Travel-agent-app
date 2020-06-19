@@ -8,11 +8,13 @@ import DealsOnSale from './deals-on-sale';
 import Testemonial from './Testimonials';
 import TourCountdown from './countdown-section';
 import Blog from './blog';
-import Footer from './footer';
+import Footer from '../common/footer';
+import HeaderNavbar from '../common/header-navigation';
  
 export default function Landing() {
     return (
         <div>
+            <HeaderNavbar/>
             <TopSlider/>
             <SearchOrdet/>
             <Destination/>
