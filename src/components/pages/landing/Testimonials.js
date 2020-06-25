@@ -11,10 +11,10 @@ import testemonial5 from "../../../assets/images/testemonial5.jpg"
 export default class Testemonial extends Component {
     render() {
         return (
-            <section class="testimonials">
-                <div class="section-title text-center">
+            <section className="testimonials">
+                <div className="section-title text-center">
                     <h2>Best Rated Travel Agency</h2>
-                    <div class="section-icon section-icon-white">
+                    <div className="section-icon section-icon-white">
                         <GiCutDiamond/>
                     </div>       
                 </div>

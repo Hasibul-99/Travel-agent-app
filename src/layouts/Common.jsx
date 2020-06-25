@@ -11,30 +11,26 @@ class Common extends Component {
     }
 
     getRoutes = routes => {
-        return routes.map((prop, key) => {  
-          if (prop.layout === "/") {
-            return (
-              <Route
-                path={prop.layout + prop.path}
-                render={props => (
-                  <prop.component
-                    {...props}
-                    handleClick={this.handleNotificationClick}
-                  />
-                )}
-                key={key}
-              />
-            );
-          } else {
-            return null;
-          }
-        });
+      return routes.map((prop, key) => {  
+        if (prop.layout === "/") {
+          return(<Route
+            path={prop.path}
+            component={prop.component}
+            key={key}
+            exact = {prop.exact}
+          />)
+        } else {
+          return null;
+        }
+      });
     };
 
     render() {
         return (
             <div>
-                <Switch>{this.getRoutes(routes)}</Switch>
+                <Switch>
+                  {this.getRoutes(routes)}
+                </Switch>
             </div>
         )
     }

@@ -13,18 +13,23 @@ class Admin extends Component {
     getRoutes = routes => {
         return routes.map((prop, key) => {
           if (prop.layout === "/auth") {
-            return (
-              <Route
-                path={prop.layout + prop.path}
-                render={props => (
-                  <prop.component
-                    {...props}
-                    handleClick={this.handleNotificationClick}
-                  />
-                )}
-                key={key}
-              />
-            );
+            // return (
+            //   <Route
+            //     path={prop.layout + prop.path}
+            //     render={props => (
+            //       <prop.component
+            //         {...props}
+            //         handleClick={this.handleNotificationClick}
+            //       />
+            //     )}
+            //     key={key}
+            //   />
+            // );
+            return(<Route
+              path={prop.layout + prop.path}
+              component={prop.component}
+              key={key}
+            />)
           } else {
             return null;
           }

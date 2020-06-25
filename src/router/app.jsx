@@ -22,9 +22,12 @@ class App extends Component {
     render() {
         return (
             <Switch>
-                <Route exact path="/" render={props => <CommonRouter {...props} />}></Route>
+                {/* <Route path="/auth" component={AuthLayout} />
+                <Route path="/admin" component={AdminLayout} />
+                <Route path="/" component={CommonRouter} /> */}
                 <Route path="/admin" render={props => <AdminLayout {...props} />} ></Route>
                 <Route path="/auth" render={props => <AuthLayout {...props} />}></Route>
+                <Route path="/" render={props => <CommonRouter {...props} />}></Route>
                 <Redirect from="/" to="/" /> 
             </Switch>
         )

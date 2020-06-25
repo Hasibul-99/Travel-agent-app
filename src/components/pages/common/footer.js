@@ -24,17 +24,17 @@ export default class Footer extends Component {
     render() {
         return (
             <footer>
-                <div class="footer-upper">
-                    <div class="container">
-                        <div class="footer-links">
-                            <div class="row">
-                                <div class="col-md-3 col-xs-6">
-                                    <div class="footer-about footer-margin">
-                                        <div class="about-logo">
+                <div className="footer-upper">
+                    <div className="container">
+                        <div className="footer-links">
+                            <div className="row">
+                                <div className="col-md-3 col-xs-6">
+                                    <div className="footer-about footer-margin">
+                                        <div className="about-logo">
                                             <img src={YatraWhite} alt=""/>
                                         </div>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                                        <div class="about-location">
+                                        <div className="about-location">
                                             <ul>
                                                 <li>
                                                     <GrLocation/> Location
@@ -47,62 +47,62 @@ export default class Footer extends Component {
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div class="footer-social-links">
+                                        <div className="footer-social-links">
                                             <ul>
-                                                <li class="social-icon"><Link to=""><i class="fa fa-facebook" aria-hidden="true"></i></Link></li>
-                                                <li class="social-icon"><Link to=""><i class="fa fa-instagram" aria-hidden="true"></i></Link></li>
-                                                <li class="social-icon"><Link to=""><i class="fa fa-twitter" aria-hidden="true"></i></Link></li>
-                                                <li class="social-icon"><Link to=""><i class="fa fa-youtube" aria-hidden="true"></i></Link></li>
-                                                <li class="social-icon"><Link to=""><i class="fa fa-google" aria-hidden="true"></i></Link></li>
+                                                <li className="social-icon"><Link to=""><i className="fa fa-facebook" aria-hidden="true"></i></Link></li>
+                                                <li className="social-icon"><Link to=""><i className="fa fa-instagram" aria-hidden="true"></i></Link></li>
+                                                <li className="social-icon"><Link to=""><i className="fa fa-twitter" aria-hidden="true"></i></Link></li>
+                                                <li className="social-icon"><Link to=""><i className="fa fa-youtube" aria-hidden="true"></i></Link></li>
+                                                <li className="social-icon"><Link to=""><i className="fa fa-google" aria-hidden="true"></i></Link></li>
                                             </ul>
                                         </div>    
                                     </div>
                                 </div>
-                                <div class="col-md-3 col-xs-6">
-                                    <div class="footer-links-list footer-margin">
+                                <div className="col-md-3 col-xs-6">
+                                    <div className="footer-links-list footer-margin">
                                         <h3>Browse Tour</h3>
                                         <ul>
-                                            <li><Link to="">Cyclades <i class="fa fa-angle-right" aria-hidden="true"></i></Link></li>
-                                            <li><Link to="">North Ionian <i class="fa fa-angle-right" aria-hidden="true"></i></Link></li>
-                                            <li><Link to="">Sporades <i class="fa fa-angle-right" aria-hidden="true"></i></Link></li>
-                                            <li><Link to="">View all Destinations <i class="fa fa-angle-right" aria-hidden="true"></i></Link></li>
-                                            <li><Link to="">View all Yatchs <i class="fa fa-angle-right" aria-hidden="true"></i></Link></li>
-                                            <li><Link to="">View all Cruises <i class="fa fa-angle-right" aria-hidden="true"></i></Link></li>
+                                            <li><Link to="">Cyclades <i className="fa fa-angle-right" aria-hidden="true"></i></Link></li>
+                                            <li><Link to="">North Ionian <i className="fa fa-angle-right" aria-hidden="true"></i></Link></li>
+                                            <li><Link to="">Sporades <i className="fa fa-angle-right" aria-hidden="true"></i></Link></li>
+                                            <li><Link to="">View all Destinations <i className="fa fa-angle-right" aria-hidden="true"></i></Link></li>
+                                            <li><Link to="">View all Yatchs <i className="fa fa-angle-right" aria-hidden="true"></i></Link></li>
+                                            <li><Link to="">View all Cruises <i className="fa fa-angle-right" aria-hidden="true"></i></Link></li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-md-3 col-xs-6">
-                                    <div class="footer-recent-post footer-margin">
+                                <div className="col-md-3 col-xs-6">
+                                    <div className="footer-recent-post footer-margin">
                                         <h3>Recent Posts</h3>
                                         <ul>
                                             <li>
-                                                <div class="recent-post-item">
-                                                    <div class="recent-post-image">
+                                                <div className="recent-post-item">
+                                                    <div className="recent-post-image">
                                                         <img src={bucket1} alt=""/>
                                                     </div>
-                                                    <div class="recent-post-content">
+                                                    <div className="recent-post-content">
                                                         <h4><a href="tour-detail.html">A trip to heaven</a></h4>
                                                         <p>June 17, 2018</p>
                                                     </div>
                                                 </div>
                                             </li>
                                             <li>
-                                                <div class="recent-post-item">
-                                                    <div class="recent-post-image">
+                                                <div className="recent-post-item">
+                                                    <div className="recent-post-image">
                                                         <img src={bucket2} alt=""/>
                                                     </div>
-                                                    <div class="recent-post-content">
+                                                    <div className="recent-post-content">
                                                         <h4><a href="tour-detail.html">Diving in Atlantic</a></h4>
                                                         <p>June 17, 2018</p>
                                                     </div>
                                                 </div>
                                             </li>
                                             <li>
-                                                <div class="recent-post-item">
-                                                    <div class="recent-post-image">
+                                                <div className="recent-post-item">
+                                                    <div className="recent-post-image">
                                                         <img src={bucket3} alt=""/>
                                                     </div>
-                                                    <div class="recent-post-content">
+                                                    <div className="recent-post-content">
                                                         <h4><a href="tour-detail.html">Travellers History</a></h4>
                                                         <p>June 17, 2018</p>
                                                     </div>
@@ -111,9 +111,9 @@ export default class Footer extends Component {
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-md-3 col-xs-6">
-                                    <div class="footer-links-list">
-                                        <div class="footer-instagram">
+                                <div className="col-md-3 col-xs-6">
+                                    <div className="footer-links-list">
+                                        <div className="footer-instagram">
                                             <h3>Instagram</h3>
                                             <ul>
                                                 <li><img src={insta1} alt=""/></li>

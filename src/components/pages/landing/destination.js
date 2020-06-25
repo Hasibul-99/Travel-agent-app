@@ -50,7 +50,7 @@ export default class Destination extends Component {
                                 </div>
                                 <div className="package-content">
                                     <h3>Surfing at Goa, India</h3>
-                                    <p className="package-days"><i class="flaticon-time"></i> 5 days</p>
+                                    <p className="package-days"><i className="flaticon-time"></i> 5 days</p>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
                                     <div className="package-info">
                                         <a href="/" className="btn-blue btn-red">View more details</a>
@@ -58,52 +58,52 @@ export default class Destination extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 display-initial">
-                            <div class="package-item">
-                                <div class="package-image">
+                        <div className="col-4 display-initial">
+                            <div className="package-item">
+                                <div className="package-image">
                                     <img src={package2} alt=""/>
-                                    <div class="package-price">
-                                        <div class="deal-rating">
-                                            <span class="fa fa-star checked"></span>
-                                            <span class="fa fa-star checked"></span>
-                                            <span class="fa fa-star checked"></span>
-                                            <span class="fa fa-star-o"></span>
-                                            <span class="fa fa-star-o"></span>
+                                    <div className="package-price">
+                                        <div className="deal-rating">
+                                            <span className="fa fa-star checked"></span>
+                                            <span className="fa fa-star checked"></span>
+                                            <span className="fa fa-star checked"></span>
+                                            <span className="fa fa-star-o"></span>
+                                            <span className="fa fa-star-o"></span>
                                         </div>
                                         <p><span>$659</span> / PER </p>
                                     </div>
                                 </div>
-                                <div class="package-content">
+                                <div className="package-content">
                                     <h3>Hot Air Ballooning</h3>
-                                    <p class="package-days"><i class="flaticon-time"></i> 5 days</p>
+                                    <p className="package-days"><i className="flaticon-time"></i> 5 days</p>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-                                    <div class="package-info">
-                                        <a href="tour-detail.html" class="btn-blue btn-red">View more details</a>
+                                    <div className="package-info">
+                                        <a href="tour-detail.html" className="btn-blue btn-red">View more details</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 display-initial">
-                            <div class="package-item">
-                                <div class="package-image">
+                        <div className="col-4 display-initial">
+                            <div className="package-item">
+                                <div className="package-image">
                                     <img src={package2} alt=""/>
-                                    <div class="package-price">
-                                        <div class="deal-rating">
-                                            <span class="fa fa-star checked"></span>
-                                            <span class="fa fa-star checked"></span>
-                                            <span class="fa fa-star checked"></span>
-                                            <span class="fa fa-star-o"></span>
-                                            <span class="fa fa-star-o"></span>
+                                    <div className="package-price">
+                                        <div className="deal-rating">
+                                            <span className="fa fa-star checked"></span>
+                                            <span className="fa fa-star checked"></span>
+                                            <span className="fa fa-star checked"></span>
+                                            <span className="fa fa-star-o"></span>
+                                            <span className="fa fa-star-o"></span>
                                         </div>
                                         <p><span>$659</span> / PER </p>
                                     </div>
                                 </div>
-                                <div class="package-content">
+                                <div className="package-content">
                                     <h3>Lake Tohoe Advanture</h3>
-                                    <p class="package-days"><i class="flaticon-time"></i> 5 days</p>
+                                    <p className="package-days"><i className="flaticon-time"></i> 5 days</p>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-                                    <div class="package-info">
-                                        <a href="tour-detail.html" class="btn-blue btn-red">View more details</a>
+                                    <div className="package-info">
+                                        <a href="tour-detail.html" className="btn-blue btn-red">View more details</a>
                                     </div>
                                 </div>
                             </div>
@@ -140,45 +140,45 @@ export default class Destination extends Component {
                                     <div className="package-price">
                                         <div className="deal-rating">
                                             <span className="fa fa-star checked"></span>
-                                            <span class="fa fa-star checked"></span>
-                                            <span class="fa fa-star checked"></span>
-                                            <span class="fa fa-star-o"></span>
-                                            <span class="fa fa-star-o"></span>
+                                            <span className="fa fa-star checked"></span>
+                                            <span className="fa fa-star checked"></span>
+                                            <span className="fa fa-star-o"></span>
+                                            <span className="fa fa-star-o"></span>
                                         </div>
                                         <p><span>$659</span> / PER </p>
                                     </div>
                                 </div>
-                                <div class="package-content">
+                                <div className="package-content">
                                     <h3>Hot Air Ballooning</h3>
-                                    <p class="package-days"><i class="flaticon-time"></i> 5 days</p>
+                                    <p className="package-days"><i className="flaticon-time"></i> 5 days</p>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-                                    <div class="package-info">
-                                        <a href="tour-detail.html" class="btn-blue btn-red">View more details</a>
+                                    <div className="package-info">
+                                        <a href="tour-detail.html" className="btn-blue btn-red">View more details</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 display-initial">
-                            <div class="package-item">
-                                <div class="package-image">
+                        <div className="col-4 display-initial">
+                            <div className="package-item">
+                                <div className="package-image">
                                     <img src={package3} alt=""/>
-                                    <div class="package-price">
-                                        <div class="deal-rating">
-                                            <span class="fa fa-star checked"></span>
-                                            <span class="fa fa-star checked"></span>
-                                            <span class="fa fa-star checked"></span>
-                                            <span class="fa fa-star-o"></span>
-                                            <span class="fa fa-star-o"></span>
+                                    <div className="package-price">
+                                        <div className="deal-rating">
+                                            <span className="fa fa-star checked"></span>
+                                            <span className="fa fa-star checked"></span>
+                                            <span className="fa fa-star checked"></span>
+                                            <span className="fa fa-star-o"></span>
+                                            <span className="fa fa-star-o"></span>
                                         </div>
                                         <p><span>$659</span> / PER </p>
                                     </div>
                                 </div>
-                                <div class="package-content">
+                                <div className="package-content">
                                     <h3>Lake Tohoe Adventure</h3>
-                                    <p class="package-days"><i class="flaticon-time"></i> 5 days</p>
+                                    <p className="package-days"><i className="flaticon-time"></i> 5 days</p>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-                                    <div class="package-info">
-                                        <a href="tour-detail.html" class="btn-blue btn-red">View more details</a>
+                                    <div className="package-info">
+                                        <a href="tour-detail.html" className="btn-blue btn-red">View more details</a>
                                     </div>
                                 </div>
                             </div>

@@ -25,164 +25,164 @@ export default class DealsOnSale extends Component {
         };
 
         return (
-            <section class="deals-on-sale">
+            <section className="deals-on-sale">
                 <div className="container">
-                    <div class="section-title text-center">
+                    <div className="section-title text-center">
                         <h2>Deals On Sale</h2>
-                        <div class="section-icon">
+                        <div className="section-icon">
                             <GiCutDiamond />
                         </div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Duis aute irure dolor in reprehenderit..</p>
                     </div>
                     <Slider {...settings} className="row sale-slider slider-button">
                         <div className="col-md-12 display-initial">
-                            <div class="sale-item">
-                                <div class="sale-image">
+                            <div className="sale-item">
+                                <div className="sale-image">
                                     <img src={sele1} alt=""/>
                                 </div>
-                                <div class="sale-content">
-                                    <div class="sale-review">
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
+                                <div className="sale-content">
+                                    <div className="sale-review">
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
                                     </div>
                                     <h3><Link to="#">Surfing at Bahamas</Link></h3>
                                     <p><RiTimeLine/> 5 days</p>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                                    <a href="tour-detail.html" class="btn-blue btn-red">View More</a>
+                                    <a href="tour-detail.html" className="btn-blue btn-red">View More</a>
                                 </div>
-                                <div class="sale-tag">
-                                    <span class="old-price">$1449</span>
-                                    <span class="new-price"> $900</span>
+                                <div className="sale-tag">
+                                    <span className="old-price">$1449</span>
+                                    <span className="new-price"> $900</span>
                                 </div>
-                                <div class="sale-overlay"></div>
+                                <div className="sale-overlay"></div>
                             </div>
                         </div>
-                        <div class="col-md-12 display-initial">
-                            <div class="sale-item">
-                                <div class="sale-image">
+                        <div className="col-md-12 display-initial">
+                            <div className="sale-item">
+                                <div className="sale-image">
                                     <img src={sele2} alt=""/>
                                 </div>
-                                <div class="sale-content">
-                                    <div class="sale-review">
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
+                                <div className="sale-content">
+                                    <div className="sale-review">
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
                                     </div>
                                     <h3><Link to="#">Surfing at Bahamas</Link></h3>
                                     <p><RiTimeLine/> 5 days</p>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                                    <a href="tour-detail.html" class="btn-blue btn-red">View More</a>
+                                    <a href="tour-detail.html" className="btn-blue btn-red">View More</a>
                                 </div>
-                                <div class="sale-tag">
-                                    <span class="old-price">$1449</span>
-                                    <span class="new-price"> $900</span>
+                                <div className="sale-tag">
+                                    <span className="old-price">$1449</span>
+                                    <span className="new-price"> $900</span>
                                 </div>
-                                <div class="sale-overlay"></div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 display-initial">
-                            <div class="sale-item">
-                                <div class="sale-image">
-                                    <img src={sele3} alt=""/>
-                                </div>
-                                <div class="sale-content">
-                                    <div class="sale-review">
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                    </div>
-                                    <h3><Link to="#">Surfing at Bahamas</Link></h3>
-                                    <p><RiTimeLine/> 5 days</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                                    <a href="tour-detail.html" class="btn-blue btn-red">View More</a>
-                                </div>
-                                <div class="sale-tag">
-                                    <span class="old-price">$1449</span>
-                                    <span class="new-price"> $900</span>
-                                </div>
-                                <div class="sale-overlay"></div>
+                                <div className="sale-overlay"></div>
                             </div>
                         </div>
                         <div className="col-md-12 display-initial">
-                            <div class="sale-item">
-                                <div class="sale-image">
+                            <div className="sale-item">
+                                <div className="sale-image">
+                                    <img src={sele3} alt=""/>
+                                </div>
+                                <div className="sale-content">
+                                    <div className="sale-review">
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                    </div>
+                                    <h3><Link to="#">Surfing at Bahamas</Link></h3>
+                                    <p><RiTimeLine/> 5 days</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                    <a href="tour-detail.html" className="btn-blue btn-red">View More</a>
+                                </div>
+                                <div className="sale-tag">
+                                    <span className="old-price">$1449</span>
+                                    <span className="new-price"> $900</span>
+                                </div>
+                                <div className="sale-overlay"></div>
+                            </div>
+                        </div>
+                        <div className="col-md-12 display-initial">
+                            <div className="sale-item">
+                                <div className="sale-image">
                                     <img src={sele4} alt=""/>
                                 </div>
-                                <div class="sale-content">
-                                    <div class="sale-review">
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
+                                <div className="sale-content">
+                                    <div className="sale-review">
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
                                     </div>
                                     <h3><Link to="#">Surfing at Bahamas</Link></h3>
                                     <p><RiTimeLine/> 5 days</p>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                                    <a href="tour-detail.html" class="btn-blue btn-red">View More</a>
+                                    <a href="tour-detail.html" className="btn-blue btn-red">View More</a>
                                 </div>
-                                <div class="sale-tag">
-                                    <span class="old-price">$1449</span>
-                                    <span class="new-price"> $900</span>
+                                <div className="sale-tag">
+                                    <span className="old-price">$1449</span>
+                                    <span className="new-price"> $900</span>
                                 </div>
-                                <div class="sale-overlay"></div>
+                                <div className="sale-overlay"></div>
                             </div>
                         </div>
                         <div className="col-md-12 display-initial">
-                            <div class="sale-item">
-                                <div class="sale-image">
+                            <div className="sale-item">
+                                <div className="sale-image">
                                     <img src={sele1} alt=""/>
                                 </div>
-                                <div class="sale-content">
-                                    <div class="sale-review">
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
+                                <div className="sale-content">
+                                    <div className="sale-review">
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
                                     </div>
                                     <h3><Link to="#">Surfing at Bahamas</Link></h3>
                                     <p><RiTimeLine/> 5 days</p>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                                    <a href="tour-detail.html" class="btn-blue btn-red">View More</a>
+                                    <a href="tour-detail.html" className="btn-blue btn-red">View More</a>
                                 </div>
-                                <div class="sale-tag">
-                                    <span class="old-price">$1449</span>
-                                    <span class="new-price"> $900</span>
+                                <div className="sale-tag">
+                                    <span className="old-price">$1449</span>
+                                    <span className="new-price"> $900</span>
                                 </div>
-                                <div class="sale-overlay"></div>
+                                <div className="sale-overlay"></div>
                             </div>
                         </div>
-                        <div class="col-md-12 display-initial">
-                            <div class="sale-item">
-                                <div class="sale-image">
+                        <div className="col-md-12 display-initial">
+                            <div className="sale-item">
+                                <div className="sale-image">
                                     <img src={sele3} alt=""/>
                                 </div>
-                                <div class="sale-content">
-                                    <div class="sale-review">
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
+                                <div className="sale-content">
+                                    <div className="sale-review">
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
                                     </div>
                                     <h3><Link to="#">Surfing at Bahamas</Link></h3>
                                     <p><RiTimeLine/> 5 days</p>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                                    <a href="tour-detail.html" class="btn-blue btn-red">View More</a>
+                                    <a href="tour-detail.html" className="btn-blue btn-red">View More</a>
                                 </div>
-                                <div class="sale-tag">
-                                    <span class="old-price">$1449</span>
-                                    <span class="new-price"> $900</span>
+                                <div className="sale-tag">
+                                    <span className="old-price">$1449</span>
+                                    <span className="new-price"> $900</span>
                                 </div>
-                                <div class="sale-overlay"></div>
+                                <div className="sale-overlay"></div>
                             </div>
                         </div>
                     </Slider>
