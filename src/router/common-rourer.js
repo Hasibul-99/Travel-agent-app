@@ -2,6 +2,7 @@ import Landing from "../components/pages/landing/index";
 import Destination from "../components/pages/destination/index";
 import TourDetail from "../components/pages/destination/tour-detail";
 import Blogs from "../components/pages/blog/index";
+import BlogDetails from "../components/pages/blog/blog-details";
 
 const commonRouter = [
     {
@@ -27,6 +28,12 @@ const commonRouter = [
       path: '/blogs',
       name: 'Blogs',
       component: Blogs,
+      layout: "/"
+    },
+    {
+      path: '/blog/:id',
+      name: 'BlogDetails',
+      component: BlogDetails,
       layout: "/"
     }
 ]
