@@ -36,7 +36,7 @@ function HeaderNavbar(props) {
                             <Link to="/destination">DESTINATION</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="#">BLOG</Link>
+                            <Link to="/blogs">BLOG</Link>
                         </li>
                         <li className="nav-item">
                             <Link to="#">CONTACT US</Link>
