@@ -39,7 +39,7 @@ function HeaderNavbar(props) {
                             <Link to="/blogs">BLOG</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="#">CONTACT US</Link>
+                            <Link to="/contact">CONTACT US</Link>
                         </li>
                     </ul>
                 </div>

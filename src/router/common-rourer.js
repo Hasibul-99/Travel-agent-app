@@ -3,6 +3,7 @@ import Destination from "../components/pages/destination/index";
 import TourDetail from "../components/pages/destination/tour-detail";
 import Blogs from "../components/pages/blog/index";
 import BlogDetails from "../components/pages/blog/blog-details";
+import Contact from "../components/pages/contact/index";
 
 const commonRouter = [
     {
@@ -35,6 +36,13 @@ const commonRouter = [
       name: 'BlogDetails',
       component: BlogDetails,
       layout: "/"
+    },
+    {
+      path: '/contact',
+      name: 'Contact',
+      component: Contact,
+      layout: "/"
+
     }
 ]
 

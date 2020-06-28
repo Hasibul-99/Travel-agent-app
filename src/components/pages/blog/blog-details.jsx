@@ -325,44 +325,44 @@ export default class BlogDetails extends Component {
                                         <div className="popular-item">
                                             <div className="popular-content">
                                                 <span className="item-no">01</span>
-                                                <h4><a href="#">7 reasons Hollywood doesn’t make romantic comedies anymore</a></h4>
+                                                <h4><Link to="#">7 reasons Hollywood doesn’t make romantic comedies anymore</Link></h4>
                                                 <div className="author-detail">
-                                                    <p><a href="#"><i className="fa fa-user-o"></i> John Doe</a></p>
+                                                    <p><Link to="#"><i className="fa fa-user-o"></i> John Doe</Link></p>
                                                     <p><i className="fa fa-clock-o"></i> 12 May</p>
-                                                    <p><a href="#"><i className="fa fa-comment-o"></i> 3 comments</a></p>
+                                                    <p><Link to="#"><i className="fa fa-comment-o"></i> 3 comments</Link></p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="popular-item">
                                             <div className="popular-content">
-                                                <span className="item-no">02</span>
-                                                <h4><a href="#">Watch: the 3 best performances of the 2018 VMAs</a></h4>
+                                                <span className="item-no">01</span>
+                                                <h4><Link to="#">7 reasons Hollywood doesn’t make romantic comedies anymore</Link></h4>
                                                 <div className="author-detail">
-                                                    <p><a href="#"><i className="fa fa-user-o"></i> John Doe</a></p>
+                                                    <p><Link to="#"><i className="fa fa-user-o"></i> John Doe</Link></p>
                                                     <p><i className="fa fa-clock-o"></i> 12 May</p>
-                                                    <p><a href="#"><i className="fa fa-comment-o"></i> 3 comments</a></p>
+                                                    <p><Link to="#"><i className="fa fa-comment-o"></i> 3 comments</Link></p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="popular-item">
                                             <div className="popular-content">
-                                                <span className="item-no">03</span>
-                                                <h4><a href="#">Why conservatives love to hate Alexandria?</a></h4>
+                                                <span className="item-no">01</span>
+                                                <h4><Link to="#">7 reasons Hollywood doesn’t make romantic comedies anymore</Link></h4>
                                                 <div className="author-detail">
-                                                    <p><a href="#"><i className="fa fa-user-o"></i> John Doe</a></p>
+                                                    <p><Link to="#"><i className="fa fa-user-o"></i> John Doe</Link></p>
                                                     <p><i className="fa fa-clock-o"></i> 12 May</p>
-                                                    <p><a href="#"><i className="fa fa-comment-o"></i> 3 comments</a></p>
+                                                    <p><Link to="#"><i className="fa fa-comment-o"></i> 3 comments</Link></p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="popular-item">
                                             <div className="popular-content">
-                                                <span className="item-no">04</span>
-                                                <h4><a href="#">10 Tips you should follow before eating street foods</a></h4>
+                                                <span className="item-no">01</span>
+                                                <h4><Link to="#">7 reasons Hollywood doesn’t make romantic comedies anymore</Link></h4>
                                                 <div className="author-detail">
-                                                    <p><a href="#"><i className="fa fa-user-o"></i> John Doe</a></p>
+                                                    <p><Link to="#"><i className="fa fa-user-o"></i> John Doe</Link></p>
                                                     <p><i className="fa fa-clock-o"></i> 12 May</p>
-                                                    <p><a href="#"><i className="fa fa-comment-o"></i> 3 comments</a></p>
+                                                    <p><Link to="#"><i className="fa fa-comment-o"></i> 3 comments</Link></p>
                                                 </div>
                                             </div>
                                         </div>
