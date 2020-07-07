@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import HeaderNavbar from "../pages/common/header-navigation";
+import Footer from "../pages/common/footer";
 
 class Registation extends Component {
     constructor(props) {
@@ -9,6 +11,8 @@ class Registation extends Component {
 
     render() {
         return (
+            <>
+            <HeaderNavbar/>
             <section className="login">
                 <div className="container">
                     <div className="row">
@@ -96,6 +100,8 @@ class Registation extends Component {
                     </div>
                 </div>
             </section>
+            <Footer/>
+            </>
         )
     }
 }

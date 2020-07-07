@@ -14,8 +14,8 @@ function HeaderNavbar(props) {
                         <p><i className="flaticon-mail"></i> Mail: tourntravel@testmail.com</p>
                     </div>
                     <div className="login-btn float-right">
-                        <Link to="/login"><i className="fa fa-user-plus"></i> Register</Link>
-                        <Link to="/login"><i className="fa fa-unlock-alt"></i> Login</Link>
+                        <Link to="/auth/login"><i className="fa fa-user-plus"></i> Register</Link>
+                        <Link to="/auth/login"><i className="fa fa-unlock-alt"></i> Login</Link>
                     </div>
                 </div>
             </div>
