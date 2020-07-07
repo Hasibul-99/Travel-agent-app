@@ -5,6 +5,7 @@ import {
   Switch,
   Redirect
 } from 'react-router-dom';
+import 'react-toastify/dist/ReactToastify.css';
 
 import AdminLayout from "../layouts/Admin";
 import AuthLayout from "../layouts/Auth";
